@@ -16,7 +16,7 @@ let specific = [
   'radiation',
   'laser',
   'herbal',
-  'facial',
+  'psycho',
 ]
 
 let nouns = [
@@ -35,6 +35,8 @@ let suffix = [
   'therapy',
   'transplants',
   'exercises',
+  'extraction',
+  'amputation',
 ]
 
 function getRandom (list, chanceOfEmpty = 1,) {

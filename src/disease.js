@@ -16,7 +16,9 @@ let verbs = [
 
 let specific = [
   'brain-',
-  'ass-',
+  'rectal-',
+  'facial-',
+  'full-body-',
   'stomach-',
   'throat-and-mouth-',
 ]
