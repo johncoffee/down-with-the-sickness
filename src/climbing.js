@@ -13,7 +13,6 @@ let verbs = [
 ]
 
 let adjectives = [
-  'vegan',
   'crimpy',
   'stupid',
   'delightful',
@@ -21,25 +20,23 @@ let adjectives = [
   'sky-high',
   'pumped',
   'heavenly',
-  'testosterone-induced',
-  'dyno',
-  'men-først',
+  // 'dyno',
+  'dynamic',
   'one-handed',
 ]
 
 let nouns = [
-  'Boulder X',
+  'Boulder',
   'crimp-hell',
   'problem',
   'project',
   'beast',
-  'testosterone',
-  'off-width',
   'challenge',
+  'off-width',
   'flight-of-your-life',
   'way-to-go',
   'heaven',
-  'granitity',
+  'granite',
   'hell',
   'Rock',
 ]
@@ -50,10 +47,10 @@ function getRandom (list, chanceOfEmpty = 1) {
 
 function generateRouteName () {
   let names = [
-    getRandom(verbs,.22),
-    getRandom(verbs,.22),
-    getRandom(adjectives, .33),
-    getRandom(adjectives, .33),
+    getRandom(verbs,.44),
+    getRandom(verbs,.55),
+    getRandom(adjectives, .66),
+    getRandom(adjectives, .55),
     getRandom(nouns),
     // ...'fucking delightful delightful flight-of-your-life'.split(' ')
   ]
