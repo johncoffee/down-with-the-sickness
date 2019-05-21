@@ -12,6 +12,7 @@ let verbs = [
   'unique',
   'aggressive',
   'self-inflicted',
+  'infected',
 ]
 
 let specific = [
