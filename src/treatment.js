@@ -10,6 +10,7 @@ let adjectives = [
   'targeted',
   'precision',
   'risky',
+  'experimental',
 ]
 
 let specific = [
